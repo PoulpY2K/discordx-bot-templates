@@ -4,27 +4,27 @@
   <p align="center">
     <a href="https://github.com/PoulpY2K/discordx-prisma-ts/graphs/contributors"
       ><img
-        src="https://img.shields.io/github/contributors/PoulpY2K/gurubot"
+        src="https://img.shields.io/github/contributors/PoulpY2K/discordx-prisma-ts"
         alt="Contributors"
     /></a>
     <a href="https://github.com/PoulpY2K/discordx-prisma-ts/network/members"
       ><img
-        src="https://img.shields.io/github/forks/PoulpY2K/gurubot"
+        src="https://img.shields.io/github/forks/PoulpY2K/discordx-prisma-ts"
         alt="Forks"
     /></a>
     <a href="https://github.com/PoulpY2K/discordx-prisma-ts/stargazers"
       ><img
-        src="https://img.shields.io/github/stars/PoulpY2K/gurubot"
+        src="https://img.shields.io/github/stars/PoulpY2K/discordx-prisma-ts"
         alt="Stars"
     /></a>
     <a href="https://github.com/PoulpY2K/discordx-prisma-ts/issues"
       ><img
-        src="https://img.shields.io/github/issues/PoulpY2K/gurubot"
+        src="https://img.shields.io/github/issues/PoulpY2K/discordx-prisma-ts"
         alt="Issues"
     /></a>
     <a href="https://github.com/PoulpY2K/discordx-prisma-ts/blob/main/LICENSE.txt"
       ><img
-        src="https://img.shields.io/github/license/PoulpY2K/gurubot"
+        src="https://img.shields.io/github/license/PoulpY2K/discordx-prisma-ts"
         alt="License"
     /></a>
    <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-laurent-0986981b8/"
@@ -98,4 +98,4 @@ For the full command list please view the [Docker Documentation](https://docs.do
 
 # 💖 Thank you
 
-You can support me by giving a [GitHub](https://github.com/PoulpY2K/gurubot) star.
+You can support me by giving a [GitHub](https://github.com/PoulpY2K/discordx-prisma-ts) star.
