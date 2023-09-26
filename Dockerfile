@@ -1,5 +1,5 @@
 ## build runner
-FROM --platform=linux/amd64 node:20-alpine as build-runner
+FROM node:20-alpine as build-runner
 
 # Set temp directory
 WORKDIR /tmp/app
@@ -17,7 +17,7 @@ RUN npm install
 RUN npm run build
 
 ## production runner
-FROM --platform=linux/amd64 node:20-alpine as prod-runner
+FROM node:20-alpine as prod-runner
 
 # Set work directory
 WORKDIR /app
@@ -31,4 +31,4 @@ COPY --from=build-runner /tmp/app/build /app/build
 RUN npm install --omit=dev
 
 # Start bot and migrate database
-CMD ["npm", "run", "start:migrate"]
+CMD ["npm", "run", "start:prisma"]
