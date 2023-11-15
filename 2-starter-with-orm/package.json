@@ -1,36 +1,36 @@
 {
-  "name": "discordx-prisma-ts-template",
+  "name": "2-starter-with-orm",
   "version": "1.0.0",
   "private": true,
-  "license": "MIT",
+  "license": "ISC",
   "type": "module",
   "main": "build/main.js",
   "scripts": {
     "build": "tsc",
-    "build:changelog": "npx @discordx/changelog",
+    "build:changelog": "npx @discordx/changelog --src src",
     "dev": "tsx src/main.ts",
     "start": "node build/main.js",
     "start:prisma": "npx prisma generate && npm run start",
     "watch": "nodemon --exec tsx src/main.ts"
   },
   "dependencies": {
-    "@discordx/importer": "^1.2.2",
-    "@discordx/pagination": "^3.4.1",
-    "@prisma/client": "^5.3.1",
-    "discord.js": "^14.11.0",
-    "discordx": "^11.7.6",
-    "tslog": "^4.8.2"
+    "@discordx/importer": "^1.3.0",
+    "@discordx/pagination": "^3.5.0",
+    "@prisma/client": "^5.6.0",
+    "discord.js": "^14.14.1",
+    "discordx": "^11.8.1",
+    "tslog": "^4.9.2"
   },
   "devDependencies": {
-    "@types/node": "^20.3.2",
+    "@types/node": "^20.9.0",
     "nodemon": "^3.0.1",
-    "prettier": "^3.0.3",
-    "prisma": "^5.3.1",
-    "tsx": "^3.12.7",
+    "prettier": "^3.1.0",
+    "prisma": "^5.6.0",
+    "tsx": "^3.14.0",
     "typescript": "^5.2.2"
   },
   "engines": {
     "node": ">=16.0.0",
-    "npm": ">=7.0.0"
+    "npm": ">=8.0.0"
   }
 }

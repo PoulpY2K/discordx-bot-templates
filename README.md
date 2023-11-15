@@ -1,94 +1,66 @@
 <!-- HEADER -->
 
 <div>
-  <p align="center">
-    <a href="https://github.com/PoulpY2K/discordx-prisma-ts/graphs/contributors"
-      ><img
-        src="https://img.shields.io/github/contributors/PoulpY2K/discordx-prisma-ts"
-        alt="Contributors"
-    /></a>
-    <a href="https://github.com/PoulpY2K/discordx-prisma-ts/network/members"
-      ><img
-        src="https://img.shields.io/github/forks/PoulpY2K/discordx-prisma-ts"
-        alt="Forks"
-    /></a>
-    <a href="https://github.com/PoulpY2K/discordx-prisma-ts/stargazers"
-      ><img
-        src="https://img.shields.io/github/stars/PoulpY2K/discordx-prisma-ts"
-        alt="Stars"
-    /></a>
-    <a href="https://github.com/PoulpY2K/discordx-prisma-ts/issues"
-      ><img
-        src="https://img.shields.io/github/issues/PoulpY2K/discordx-prisma-ts"
-        alt="Issues"
-    /></a>
-    <a href="https://github.com/PoulpY2K/discordx-prisma-ts/blob/main/LICENSE.txt"
-      ><img
-        src="https://img.shields.io/github/license/PoulpY2K/discordx-prisma-ts"
-        alt="License"
-    /></a>
-   <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-laurent-0986981b8/"
-      ><img
-        src="https://img.shields.io/badge/-LinkedIn-black?logo=linkedin&colorB=555"
-        alt="LinkedIn"
-    /></a>
+    <p align="center">
+        <a href="https://github.com/PoulpY2K/discordx-bot-templates/graphs/contributors"
+          ><img
+            src="https://img.shields.io/github/contributors/PoulpY2K/discordx-bot-templates"
+            alt="Contributors"
+        /></a>
+        <a href="https://github.com/PoulpY2K/discordx-bot-templates/network/members"
+          ><img
+            src="https://img.shields.io/github/forks/PoulpY2K/discordx-bot-templates"
+            alt="Forks"
+        /></a>
+        <a href="https://github.com/PoulpY2K/discordx-bot-templates/stargazers"
+          ><img
+            src="https://img.shields.io/github/stars/PoulpY2K/discordx-bot-templates"
+            alt="Stars"
+        /></a>
+        <a href="https://github.com/PoulpY2K/discordx-bot-templates/issues"
+          ><img
+            src="https://img.shields.io/github/issues/PoulpY2K/discordx-bot-templates"
+            alt="Issues"
+        /></a>
+        <a href="https://github.com/PoulpY2K/discordx-bot-templates/blob/main/LICENSE.txt"
+          ><img
+            src="https://img.shields.io/github/license/PoulpY2K/discordx-bot-templates"
+            alt="License"
+        /></a>
+       <a href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-laurent-0986981b8/"
+          ><img
+            src="https://img.shields.io/badge/-LinkedIn-black?logo=linkedin&colorB=555"
+            alt="LinkedIn"
+        /></a>
   </p>
   <p align="center">
-    <b> My own Discord Typescript Bot template, with Postgres and Prisma support, because it's the best combo. </b>
+    <b> Discord Typescript Bot templates, with or without ORM !</b>
   </p>
    <p align="center">
-    <a href="https://github.com/PoulpY2K/discordx-prisma-ts/issues">Report bugs</a>
+    <a href="https://github.com/PoulpY2K/discordx-bot-templates/issues">Report bugs</a>
     ·
-    <a href="https://github.com/PoulpY2K/discordx-prisma-ts/issues">New feature</a>
+    <a href="https://github.com/PoulpY2K/discordx-bot-templates/issues">New feature</a>
   </p>
 </div>
 
 # 📖 Introduction
 
-A simple Discord bot template made with [Discordx](https://github.com/discordx-ts/discordx) with database and ORM.
+This repository contains all the starter bot templates used by [create-discord-typescript](https://github.com/PoulpY2K/create-discord-typescript), To get started using one of
+these templates simply run the following command:
 
-# 🏗 Development
-
-```
-npm install
-npm run dev
+```SH
+npx create-discord-typescript
 ```
 
-If you want to use [nodemon](https://nodemon.io/) to auto-reload while in development:
+These templates use [Discordx](https://github.com/discordx-ts/discordx) and are modified for usage with database or a
+simple start.
 
-```
-npm run watch
-```
+# 🗂 Templates
 
-# 💻 Production
-
-```
-npm install --omit=dev
-npm run build
-npm run start
-```
-
-# 🐋 Docker
-
-To start your application:
-
-```
-docker compose up -d
-```
-
-To shut down your application:
-
-```
-docker compose down
-```
-
-To view your application's logs:
-
-```
-docker compose logs
-```
-
-For the full command list please view the [Docker Documentation](https://docs.docker.com/engine/reference/commandline/cli/).
+| Template                                   |
+|--------------------------------------------|
+| [1-starter](./1-starter)                   |
+| [2-starter-with-orm](./2-starter-with-orm) |
 
 # 🔨 Made with [Discordx](https://github.com/discordx-ts/discordx/)
 
@@ -98,4 +70,4 @@ For the full command list please view the [Docker Documentation](https://docs.do
 
 # 💖 Thank you
 
-You can support me by giving a [GitHub](https://github.com/PoulpY2K/discordx-prisma-ts) star.
+You can support me by giving a [GitHub](https://github.com/PoulpY2K/discordx-bot-templates) star.
